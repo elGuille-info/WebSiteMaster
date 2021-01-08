@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+    public static string AppName 
+    { 
+        get {return "Web Site Master C#"; } 
+    }
+
+</script>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="padding:1em; background-color:lightgreen; font-weight:bold">
+            <label><a runat="server" href="Default.aspx">Inicio</a></label>&nbsp;-&nbsp;
+            <label><a runat="server" href="Prueba.aspx">Prueba en VB</a></label>&nbsp;-&nbsp;
+            <label><a runat="server" href="Prueba2.aspx">Prueba en C#</a></label>
+        </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

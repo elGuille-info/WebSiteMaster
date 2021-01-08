@@ -1,0 +1,31 @@
+﻿<%@ Master Language="VB" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+    Public Shared Property AppName As String = "Web Site Master VB"
+
+</script>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="padding:1em; background-color:lightskyblue; font-weight:bold">
+            <label><a runat="server" href="Default.aspx">Inicio en VB</a></label>&nbsp;-&nbsp;
+            <label><a runat="server" href="Prueba.aspx">Prueba en VB</a></label>&nbsp;-&nbsp;
+            <label><a runat="server" href="Prueba2.aspx">Prueba en C#</a></label>
+        </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

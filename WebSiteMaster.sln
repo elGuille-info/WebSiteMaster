@@ -1,0 +1,65 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSiteMaster_cs", "WebSiteMaster_cs\", "{931B79B4-9A2E-4156-8A8A-D69B5A876A5A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51409"
+		Debug.AspNetCompiler.PhysicalPath = "WebSiteMaster_cs\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51409\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51409"
+		Release.AspNetCompiler.PhysicalPath = "WebSiteMaster_cs\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51409\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51409"
+		SlnRelativePath = "WebSiteMaster_cs\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSiteMaster_vb", "WebSiteMaster_vb\", "{828F71A9-7BF1-4FE6-B821-424388441F7F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51486"
+		Debug.AspNetCompiler.PhysicalPath = "WebSiteMaster_vb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51486\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51486"
+		Release.AspNetCompiler.PhysicalPath = "WebSiteMaster_vb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51486\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51486"
+		SlnRelativePath = "WebSiteMaster_vb\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{931B79B4-9A2E-4156-8A8A-D69B5A876A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931B79B4-9A2E-4156-8A8A-D69B5A876A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828F71A9-7BF1-4FE6-B821-424388441F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828F71A9-7BF1-4FE6-B821-424388441F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31E96604-A4A2-4B75-BDE5-7C0CB984E2A9}
+	EndGlobalSection
+EndGlobal
